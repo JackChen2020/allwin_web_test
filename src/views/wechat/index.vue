@@ -31,7 +31,7 @@
                             "value" : "1"
                         },{
                             "label":"付临门聚合",
-                            "value" : "4"
+                            "value" : "5"
                         },
                         ],
                         type:'select',

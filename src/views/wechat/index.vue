@@ -26,6 +26,15 @@
                     column: [{
                         label: "支付方式",
                         prop: "paytypeid",
+                        dicData: [{
+                            "label":"微信扫码",
+                            "value" : "1"
+                        },{
+                            "label":"付临门聚合",
+                            "value" : "4"
+                        },
+                        ],
+                        type:'select',
                         span:10,
                         row:true,
                     }, {
@@ -95,14 +104,14 @@
             // this.obj.phone='17547400800';
             this.obj.client_ip = "192.168.0.1"
             this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-            this.obj.paytypeid = "1"
+            this.obj.paytypeid = "4"
             this.obj.ismobile = "0"
         },
         methods:{
             emptytChange(){
                 this.obj.client_ip = "192.168.0.1"
                 this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-                this.obj.paytypeid = "1"
+                this.obj.paytypeid = "4"
                 this.obj.ismobile = "0"
             },
             submit () {

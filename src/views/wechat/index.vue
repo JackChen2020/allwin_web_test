@@ -64,7 +64,7 @@
                         },
                         valueDefault: 3,
                         minRows: 0,
-                        maxRows: 3,
+                        maxRows: 5000,
                         row:true,
                     },{
                         label: "订单创建时间",

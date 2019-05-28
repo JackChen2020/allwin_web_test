@@ -13,6 +13,11 @@ let routes = [
         name: '傲银微信h5测试',
     },
     {
+        path: '/jl',
+        component: wechat,
+        name: '傲银微信h5测试',
+    },
+    {
         path: '/404',
         component: NotFound,
         name: '',

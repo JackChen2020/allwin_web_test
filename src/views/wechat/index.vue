@@ -32,6 +32,9 @@
                         },{
                             "label":"付临门聚合",
                             "value" : "5"
+                        },{
+                            "label":"农信易扫",
+                            "value" : "6"
                         },
                         ],
                         type:'select',

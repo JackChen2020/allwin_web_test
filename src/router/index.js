@@ -7,6 +7,7 @@ Vue.use(Router)
 
 import NotFound from '../views/404.vue'
 import wechat from '../views/wechat/index'
+import juli from '../views/juli/index'
 
 
 let routes = [
@@ -14,6 +15,11 @@ let routes = [
     path: '/',
     component: wechat,
     name: '傲银微信h5测试',
+  },
+  {
+    path: '/juli',
+    component: juli,
+    name: '傲银(聚力)微信h5测试',
   },
   {
     path: '/404',

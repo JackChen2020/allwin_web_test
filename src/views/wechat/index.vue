@@ -35,6 +35,9 @@
                         },{
                             "label":"农信易扫",
                             "value" : "6"
+                        },{
+                            "label":"金燕E商",
+                            "value" : "7"
                         },
                         ],
                         type:'select',
@@ -107,23 +110,22 @@
             // this.obj.phone='17547400800';
             this.obj.client_ip = "192.168.0.1"
             this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-            this.obj.paytypeid = "5"
+            this.obj.paytypeid = "7"
             this.obj.ismobile = "0"
         },
         methods:{
             emptytChange(){
                 this.obj.client_ip = "192.168.0.1"
                 this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-                this.obj.paytypeid = "5"
+                this.obj.paytypeid = "7"
                 this.obj.ismobile = "0"
             },
             submit () {
                 this.obj.allwin_test = "1"
-                console.log(this.obj)
                 create_order({
                     data : this.obj,
                     callback : (res)  => {
-                        console.log(res.data.data.path)
+                        console.log(res.data.data)
                         this.url = res.data.data.path
                         this.isFlag = true
                     }

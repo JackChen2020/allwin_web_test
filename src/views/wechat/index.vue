@@ -38,6 +38,9 @@
                         },{
                             "label":"金燕E商",
                             "value" : "7"
+                        },{
+                            "label":"浙江农信",
+                            "value" : "8"
                         },
                         ],
                         type:'select',
@@ -110,14 +113,14 @@
             // this.obj.phone='17547400800';
             this.obj.client_ip = "192.168.0.1"
             this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-            this.obj.paytypeid = "7"
+            this.obj.paytypeid = "8"
             this.obj.ismobile = "0"
         },
         methods:{
             emptytChange(){
                 this.obj.client_ip = "192.168.0.1"
                 this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-                this.obj.paytypeid = "7"
+                this.obj.paytypeid = "8"
                 this.obj.ismobile = "0"
             },
             submit () {

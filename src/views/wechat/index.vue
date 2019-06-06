@@ -20,7 +20,7 @@
             option(){
                 return{
                     size:'mini',
-                    labelWidth:400,
+                    labelWidth:100,
                     mock:true,
                     submitText: '完成',
                     column: [{

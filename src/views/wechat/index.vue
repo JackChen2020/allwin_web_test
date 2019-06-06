@@ -30,6 +30,9 @@
                             "label":"微信扫码",
                             "value" : "1"
                         },{
+                            "label":"支付宝原生",
+                            "value" : "3"
+                        },{
                             "label":"付临门聚合",
                             "value" : "5"
                         },{
@@ -113,14 +116,14 @@
             // this.obj.phone='17547400800';
             this.obj.client_ip = "192.168.0.1"
             this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-            this.obj.paytypeid = "8"
+            this.obj.paytypeid = "3"
             this.obj.ismobile = "0"
         },
         methods:{
             emptytChange(){
                 this.obj.client_ip = "192.168.0.1"
                 this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-                this.obj.paytypeid = "8"
+                this.obj.paytypeid = "3"
                 this.obj.ismobile = "0"
             },
             submit () {

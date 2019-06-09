@@ -3,7 +3,7 @@
         <avue-form ref="form" v-model="obj" :option="option" @reset-change="emptytChange" @submit="submit">
         </avue-form>
         <el-link style="margin-left: 300px;margin-top:20px" :href="url" v-show="isFlag" target="_blank">点击跳转到支付页面</el-link>
-        <a href="alipays://platformapi/startapp?url=https://nxt.nongxinyin.com/buybal-api/v1.0/cashier/initializ/0BF0E1B45858AD28A20E4F19C2D0F8C7/EB893B83D8AA1CB65B69E21B5EFE70E6&appId=20000067">test</a>
+<!--        <a href="alipays://platformapi/startapp?url=https://nxt.nongxinyin.com/buybal-api/v1.0/cashier/initializ/0BF0E1B45858AD28A20E4F19C2D0F8C7/EB893B83D8AA1CB65B69E21B5EFE70E6&appId=20000067">test</a>-->
     </div>
 </template>
 
@@ -54,6 +54,10 @@
                             "label":"支付宝拼多多",
                             "value" : "13"
                         },
+                            {
+                                "label":"支付宝个码H5",
+                                "value" : "15"
+                            },
                         ],
                         type:'select',
                         span:10,
@@ -125,14 +129,14 @@
             // this.obj.phone='17547400800';
             this.obj.client_ip = "192.168.0.1"
             this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-            this.obj.paytypeid = "3"
+            this.obj.paytypeid = "15"
             this.obj.ismobile = "0"
         },
         methods:{
             emptytChange(){
                 this.obj.client_ip = "192.168.0.1"
                 this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
-                this.obj.paytypeid = "3"
+                this.obj.paytypeid = "15"
                 this.obj.ismobile = "0"
             },
             submit () {

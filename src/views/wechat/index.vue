@@ -8,6 +8,7 @@
 </template>
 
 <script>
+
     import { create_order } from '@/api/request/request'
     export default {
         data() {
@@ -45,6 +46,13 @@
                         },{
                             "label":"浙江农信",
                             "value" : "8"
+                        },{
+                            "label":"微信拼多多",
+                            "value" : "14"
+                        },
+                        {
+                            "label":"支付宝拼多多",
+                            "value" : "13"
                         },
                         ],
                         type:'select',

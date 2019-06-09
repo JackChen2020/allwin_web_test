@@ -3,7 +3,7 @@
         <avue-form ref="form" v-model="obj" :option="option" @reset-change="emptytChange" @submit="submit">
         </avue-form>
         <el-link style="margin-left: 300px;margin-top:20px" :href="url" v-show="isFlag" target="_blank">点击跳转到支付页面</el-link>
-        <a href="alipays://platformapi/startapp?url=https://nxt.nongxinyin.com/buybal-api/v1.0/cashier/initializ/131598247D40D60A4C140083C100AEDC&appId=20000067&amount=1000">test</a>
+        <a href="alipays://platformapi/startapp?url=https://nxt.nongxinyin.com/buybal-api/v1.0/cashier/initializ/0BF0E1B45858AD28A20E4F19C2D0F8C7/B7270A9AA46F28FB0B342105F3E3D223&appId=20000067">test</a>
     </div>
 </template>
 

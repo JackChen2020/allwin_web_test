@@ -29,24 +29,6 @@
                         label: "支付方式",
                         prop: "paytypeid",
                         dicData: [{
-                            "label":"微信扫码",
-                            "value" : "1"
-                        },{
-                            "label":"支付宝原生",
-                            "value" : "3"
-                        },{
-                            "label":"付临门聚合",
-                            "value" : "5"
-                        },{
-                            "label":"农信易扫",
-                            "value" : "6"
-                        },{
-                            "label":"金燕E商",
-                            "value" : "7"
-                        },{
-                            "label":"浙江农信",
-                            "value" : "8"
-                        },{
                             "label":"微信拼多多",
                             "value" : "14"
                         },
@@ -57,6 +39,14 @@
                             {
                                 "label":"支付宝个码H5",
                                 "value" : "15"
+                            },
+                            {
+                                "label":"微信农信易扫",
+                                "value" : "6"
+                            },
+                            {
+                                "label":"支付宝农信易扫",
+                                "value" : "16"
                             },
                         ],
                         type:'select',

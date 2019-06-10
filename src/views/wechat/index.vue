@@ -29,6 +29,9 @@
                         label: "支付方式",
                         prop: "paytypeid",
                         dicData: [{
+                            "label":"微信扫码",
+                            "value" : "1"
+                        },{
                             "label":"微信拼多多",
                             "value" : "14"
                         },

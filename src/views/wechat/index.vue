@@ -51,6 +51,10 @@
                                 "label":"支付宝农信易扫",
                                 "value" : "16"
                             },
+                            {
+                                "label":"支付宝宝转卡",
+                                "value" : "17"
+                            },
                         ],
                         type:'select',
                         span:10,

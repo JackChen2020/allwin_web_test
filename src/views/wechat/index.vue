@@ -55,6 +55,10 @@
                                 "label":"支付宝宝转卡",
                                 "value" : "17"
                             },
+                            {
+                                "label":"银联云闪付",
+                                "value" : "18"
+                            },
                         ],
                         type:'select',
                         span:10,

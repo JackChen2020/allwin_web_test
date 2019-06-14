@@ -28,39 +28,7 @@
                     column: [{
                         label: "支付方式",
                         prop: "paytypeid",
-                        dicData: [{
-                            "label":"微信扫码",
-                            "value" : "1"
-                        },{
-                            "label":"微信拼多多",
-                            "value" : "14"
-                        },
-                        {
-                            "label":"支付宝拼多多",
-                            "value" : "13"
-                        },
-                            {
-                                "label":"支付宝H5",
-                                "value" : "11"
-                            },
-                            {
-                                "label":"微信农信易扫",
-                                "value" : "6"
-                            },
-                            {
-                                "label":"支付宝农信易扫",
-                                "value" : "16"
-                            },
-                            {
-                                "label":"支付宝宝转卡",
-                                "value" : "17"
-                            },
-                            {
-                                "label":"银联云闪付",
-                                "value" : "18"
-                            },
-                        ],
-                        type:'select',
+                        type:'text',
                         span:10,
                         row:true,
                     }, {

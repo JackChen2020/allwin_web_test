@@ -114,9 +114,12 @@
                 create_order({
                     data : this.obj,
                     callback : (res)  => {
-                        console.log(res.data.data)
                         this.url = res.data.data.path
                         this.html = res.data.data.html
+
+                        console.log(res.data.data)
+
+                        console.log(res.data.data.html)
                         this.isFlag = true
                     }
                 })

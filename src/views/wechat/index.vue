@@ -2,8 +2,8 @@
     <div>
         <avue-form ref="form" v-model="obj" :option="option" @reset-change="emptytChange" @submit="submit">
         </avue-form>
-<!--        <el-link style="margin-left: 300px;margin-top:20px" :href="url" v-show="isFlag" target="_blank">点击跳转到支付页面</el-link>-->
-        <span v-html='html'>{{url}}</span>
+        <el-link style="margin-left: 300px;margin-top:20px" :href="url" v-show="isFlag" target="_blank">点击跳转到支付页面</el-link>
+<!--        <span v-html='html'>{{url}}</span>-->
 <!--        <a href="alipays://platformapi/startapp?url=https://nxt.nongxinyin.com/buybal-api/v1.0/cashier/initializ/0BF0E1B45858AD28A20E4F19C2D0F8C7/EB893B83D8AA1CB65B69E21B5EFE70E6&appId=20000067">test</a>-->
     </div>
 </template>

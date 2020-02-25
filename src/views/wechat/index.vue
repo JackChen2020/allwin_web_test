@@ -1,9 +1,8 @@
 <template>
     <div>
-        <avue-form v-show="!html" ref="form" v-model="obj" :option="option" @reset-change="emptytChange" @submit="submit">
+        <avue-form  ref="form" v-model="obj" :option="option" @reset-change="emptytChange" @submit="submit">
         </avue-form>
-        <el-link v-show="!html" style="margin-left: 300px;margin-top:20px" :href="url" v-show="isFlag" target="_blank">点击跳转到支付页面</el-link>
-        <div v-html='html'>{{html}}</div>
+        <el-link  style="margin-left: 300px;margin-top:20px" :href="url" v-show="isFlag" target="_blank">点击跳转到支付页面</el-link>
 <!--        <a href="alipays://platformapi/startapp?url=https://nxt.nongxinyin.com/buybal-api/v1.0/cashier/initializ/0BF0E1B45858AD28A20E4F19C2D0F8C7/EB893B83D8AA1CB65B69E21B5EFE70E6&appId=20000067">test</a>-->
     </div>
 </template>
@@ -98,14 +97,14 @@
             // this.obj.switch = 0;
             // this.obj.phone='17547400800';
             this.obj.client_ip = "192.168.0.1"
-            this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
+            this.obj.notifyurl = "http://47.75.120.33/api/paycall/wechat_test"
             this.obj.paytypeid = "15"
             this.obj.ismobile = "0"
         },
         methods:{
             emptytChange(){
                 this.obj.client_ip = "192.168.0.1"
-                this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_test"
+                this.obj.notifyurl = "http://47.75.120.33/api/paycall/wechat_test"
                 this.obj.paytypeid = "15"
                 this.obj.ismobile = "0"
             },
@@ -117,9 +116,6 @@
                         this.url = res.data.data.path
                         this.html = res.data.data.html
 
-                        console.log(res.data.data)
-
-                        console.log(res.data.data.html)
                         this.isFlag = true
                     }
                 })

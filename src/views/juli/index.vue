@@ -100,14 +100,14 @@
             // this.obj.switch = 0;
             // this.obj.phone='17547400800';
             this.obj.client_ip = "192.168.0.1"
-            this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_jl_test"
+            this.obj.notifyurl = "http://47.75.120.33/api/paycall/wechat_jl_test"
             this.obj.paytypeid = "1"
             this.obj.ismobile = "0"
         },
         methods:{
             emptytChange(){
                 this.obj.client_ip = "192.168.0.1"
-                this.obj.notifyurl = "http://allwin6666.com/api/paycall/wechat_jl_test"
+                this.obj.notifyurl = "http://47.75.120.33/api/paycall/wechat_jl_test"
                 this.obj.paytypeid = "1"
                 this.obj.ismobile = "0"
             },
